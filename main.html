@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator App</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="main">
+        
+        <div class="container">
+            
+            <div class="header">
+                <h1>AI Image Generator App</h1>
+                <p>Convert your text to image using this AI Image Generator app. Generate 4 images based on your input!</p>
+                <div class="searchBox">
+                    <input class="searchInput" type="text" placeholder="Describe your image...">
+                    <button class="searchButton" onclick="generateImage()">Search</button>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <section class="image-gallery">
+                <div class="img-card">
+                    <img src="images/img-1.jpg" alt="Default Image">
+                </div>
+                <div class="img-card">
+                    <img src="images/img-2.jpg" alt="Default Image">
+                </div>
+                <div class="img-card">
+                    <img src="images/img-3.jpg" alt="Default Image">
+                </div>
+                <div class="img-card">
+                    <img src="images/img-4.jpg" alt="Default Image">
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Beginner Guide Section -->
+    <section class="guide-section">
+        <h2>How to Use This Website</h2>
+        <div class="guide-steps">
+            <div class="step" id="step-1">
+                <h3>Step 1: Enter a Search Term</h3>
+               <p>Type a description of the image you want to generate in the search box.</p>
+            </div>
+            <div class="step" id="step-2">
+               <h3>Step 2: Click Search</h3>
+               <p>Click the 'Search' button to generate images based on your query.</p>
+            </div>
+            <div class="step" id="step-3">
+                <h3>Step 3: View Images</h3>
+                <p>Check the generated images below. You can click on them for more details.</p>
+            </div>
+            <div class="step" id="step-4">
+                <h3>Step 4: Download Images</h3>
+                <p>Click the 'Download' button below any image to save it to your device.</p>
+            </div>
+        </div>
+    </section>
+    <a href="qna.html" class="qna-link">Visit Q&A Section</a>
+
+
+    
+    <!-- Script JS -->
+    <script src="main.js"></script>
+</body>
+</html>
